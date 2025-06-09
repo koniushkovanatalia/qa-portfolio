@@ -6,11 +6,12 @@
 **Окружение:** Stage-сервер, API v3.1.1  
 
 **Шаги для воспроизведения:**
-1. Создать корзину с помощью POST /api/v1/orders  
-2. Отправить DELETE-запрос на удаление корзины /api/v1/orders/:id  
+1. Создать корзину POST /api/v1/orders  
+2. Отправить DELETE для удаления корзины /api/v1/orders/:id 
 
+**cURL:**
 ```bash
-curl --location --request DELETE '{адрес_сервера}/api/v1/orders/6'
+curl --location --request DELETE '{адрес_сервера}/api/v1/orders/{id корзины}'
 ```
 
 **Ожидаемый результат:**  
