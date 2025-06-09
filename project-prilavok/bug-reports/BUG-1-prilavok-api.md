@@ -18,7 +18,8 @@
   ]
 }
 ```
-3. Пример запроса через cURL:
+
+**cURL:**
 ```bash
 curl --location '{адрес_сервера}/api/v1/kits/11/products' \
 --header 'Content-Type: application/json' \
